@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Detalhes</title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+        <link href="../css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../basic_css.css" rel="stylesheet" type="text/css">
+        <link href="ver_mais.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+
+            <div class="divImagens">
+                <img class="logo_nome" src="../Imagens/Pet_Net_Escrita.png" alt="">
+                <img class="logo_ilustracao" src="../Imagens/Pet_Net_Logo.png" alt="">
+            </div>
+            <nav>
+                <ul class="ul">
+                    <li><a href="../pagina_principal/pagina_principal.html">Página Inicial</a></li>
+                    <li><a href="adocao.html">Adoção</a></li>
+                    <li><a href="">Achados e Perdidos</a></li>
+                    <li><a href="../carteira_De_Vacinas/carteira_de_vacinacao.html">Carteira de Vacinação</a></li>
+                    <li><a href="">Fórum</a></li>
+                    <li><a href="">Mensagens</a></li>
+                    <li><a href="../meu_perfil/meu_perfil.html">Meu Perfil</a></li>
+                    <li><a onclick="localStorage.setItem('logado',false)" href="../crie_sua_conta/crie_sua_conta.html">Sair</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container" style="margin-top:10px;font-family: 'Oswald',sans-serif;
+                                      color:#1a1a6f;">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="imagemForm" src="../imagens/gato_vacina.png" alt=""><br>
+                    <button  class="button" onclick="location.assign('formulario.html')" id="botaoAdocao"> Adotar</button>
+                </div>
+                <div class="col-md-6 descricaoAdocao">
+                    <h2>Nome,Idade</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum, turpis non dapibus fermentum, tellus ipsum bibendum erat, eu feugiat velit leo fringilla justo. Nulla fermentum magna nisl, vel consequat erat tincidunt a. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut egestas dolor at dapibus porttitor. Vivamus in tellus cursus, euismod eros at, accumsan turpis. Morbi in elementum nulla. Cras risus nisi, ullamcorper ultrices facilisis vel, rutrum eu dolor. Nulla maximus porttitor lacinia. Duis tempus libero velit, vel ornare ligula volutpat vel. Aenean non erat bibendum, lobortis nulla ut, malesuada ligula. Vestibulum euismod tortor eget dolor tincidunt consectetur. Pellentesque tellus tellus, feugiat vitae magna vel, aliquet varius metus. Sed eleifend massa nisl, vel commodo ligula auctor ut. Phasellus et lacus rutrum, pharetra est quis, maximus augue. Nulla varius congue condimentum. Curabitur facilisis dolor metus, in faucibus augue elementum nec.</p>
+                    <p>
+                        Sed et nunc augue. Suspendisse dignissim, mi vitae ornare placerat, erat justo convallis urna, vitae gravida diam risus vitae metus. Cras nec egestas sapien, non viverra dolor. Vestibulum sit amet laoreet tortor, non aliquam neque. Pellentesque vitae turpis mollis, luctus nulla in, venenatis velit. Nullam quis dignissim ipsum. Quisque tempor viverra tellus et euismod. Etiam tempor lacus quis bibendum pretium.</p>
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+        <script>
+            if (localStorage.getItem("nomeForm")==localStorage.getItem("nomeCadastro")){
+                var botao=document.getElementById("botaoAdocao");
+                botao.disabled=true;
+                botao.style.textDecoration="none";
+                botao.style.color="darkgrey";
+                botao.innerHTML="Proceso em análise";
+            }</script>
+    </body>
+</html>
