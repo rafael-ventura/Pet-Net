@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Meu Perfil</title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+        <link href="../css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../basic_css.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>   
+            <div class="divImagens">
+                <img class="logo_nome" src="../Imagens/Pet_Net_Escrita.png" alt="">
+                <img class="logo_ilustracao" src="../Imagens/Pet_Net_Logo.png" alt="">
+            </div>
+            <nav>
+                  <ul class="ul">
+                    <li><a href="../pagina_principal/pagina_principal.html">Página Inicial</a></li>
+                    <li><a href="../adocao/adocao.html">Adoção</a></li>
+                    <li><a href="">Achados e Perdidos</a></li>
+                    <li><a href="../carteira_De_Vacinas/carteira_de_vacinacao.html">Carteira de Vacinação</a></li>
+                    <li><a href="">Fórum</a></li>
+                    <li><a href="">Mensagens</a></li>
+                    <li><a href="meu_perfil.html">Meu Perfil</a></li>
+                    <li><a onclick="localStorage.setItem('logado',false)" href="../crie_sua_conta/crie_sua_conta.html">Sair</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="row">  
+                <div class="col-md-3"></div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h1>Informações do Usuário</h1>
+                            Nome: <span id="nomePerfil"></span><br>
+                            Email: <span id="emailPerfil"></span> <br>
+                            <input type="button" value="Alterar informações" onclick="location.assign('alterar_informacoes/alterar_informacoes.html')">
+                            <input type="button" value="excluir conta" onclick="exclusao()">
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Pets Cadastrados</h2>          
+                            Nome: <span id="nomePetPerfil"></span> <br>
+                            Sexo:<span id="sexoPetPerfil"></span> <br>
+                            Idade:<span id="idadePetPerfil"></span> <br>
+                            Espécie:<span id="especiePetPerfil"></span> <br>
+                            Porte:<span id="portePetPerfil"></span> <br>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                </div>
+            </div>
+        </div>
+        <script src="meu_perfil.js"></script>
+    </body>
+</html>
