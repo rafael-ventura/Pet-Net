@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro e Login Pet Net</title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+        <link href="../css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+        <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="crie_sua_conta.css" rel="stylesheet" type="text/css">
+        <script src="crie_sua_conta.js"></script>
+    </head>
+    <body>
+        <header>
+            <img class="logo_nome" src="../Imagens/Pet_Net_Escrita.png" alt="">
+            <img class="logo_ilustracao" src="../Imagens/Pet_Net_Logo.png" alt="">
+        </header>
+        <form class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-4"></div>
+                <div class="col-md-6 col-sm-3" style="background-color:#13136d;color:#d6dbbd;font-family:'Oswald',sans serif;margin-left:-10px;" >
+                    <div class="row" >
+                        <div class="col-md-6 col-sm-12" style="padding:10px;">
+                            Nome<input style="padding:4px;;margin:6px;margin-left:4px;color:#00001a" type="text" placeholder="nome" id="nomeCadastro"> <br>
+                            Email<input style="padding:4px;;margin:6px;color:#00001a" type="email" placeholder="email"id="emailCadastro"> <br>
+                            Senha<input style="padding:4px;;margin:6px;margin-left:1px;color:#00001a" type="password" placeholder="senha" id="senhaCadastro"> <br>
+                            <input style="color:#00001a;padding:4px;margin:6px;color:black" type="button" value="Cadastrar" onclick=validarCadastro();> <br>
+                        </div>
+                        <div class="col-md-6 col-sm-12" style="padding-top:30px;">
+                            Email<input style="padding:4px;;margin:6px;color:#00001a" type="email" placeholder="email"id="emailLogin"> <br>
+                            Senha<input style="padding:4px;;margin:6px;margin-left:1px;color:#00001a" type="password" placeholder="senha" id="senhaLogin"> <br>   
+                            <input style="color:#00001a;padding:4px;margin:6px;margin-top:19px;" type="button" value="Logar" onclick=login();> <br>
+                        </div>
+                        <div></div>
+                    </div>
+                </div>
+                <div class="col-md=3 col-sm-4"></div>
+            </div>
+        </form>
+    </body>
+</html>
+
