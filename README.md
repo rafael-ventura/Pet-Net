@@ -1,6 +1,6 @@
 <h1> Pet-Net </h1>
 
-<p> It was made just for a project presentation. But can be more than that! <br>
+<p> A prototype of a animal social media created as a project during my Web Developer class in College. Was my first contact with HTML, CSS and JavaScript! <br> It was made just for a project presentation. But can be more than that! <br>
  PS: This Social Media does not work with server yet! But i will try to make that and... maybe, locate in a domain.</p>
   
 <h2>The objective was: </h2>
