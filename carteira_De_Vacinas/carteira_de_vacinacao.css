@@ -1,0 +1,13 @@
+.gatoVacina{ 
+    width: 100%;
+
+}
+.cachorroVacina{
+    width: 100%;
+}
+.tituloVacina{
+    font-size:100px;
+    color:#010022;
+    text-align:center;
+    font-family: 'Oswald',sans-serif;
+}

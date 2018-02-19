@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro Cachorro</title>
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css"> 
+        <link href="../../../css/bootstrap-theme.min.css" rel="stylesheet" type="text/css">
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="../../../basic_css.css" rel="stylesheet" type="text/css"
+    </head>
+    <body>
+        <header>
+            <div class="divImagens">
+                <img class="logo_nome" src="../../../Imagens/Pet_Net_Escrita.png" alt="">
+                <img class="logo_ilustracao" src="../../../Imagens/Pet_Net_Logo.png" alt="">
+            </div>
+            <nav>
+                <ul class="ul">
+                    <li><a href="../../../pagina_principal/pagina_principal.html">Página Inicial</a></li>
+                    <li><a href="../../../adocao/adocao.html">Adoção</a></li>
+                    <li><a href="">Achados e Perdidos</a></li>
+                    <li><a href="../../carteira_de_vacinacao.html">Carteira de Vacinação</a></li>
+                    <li><a href="">Fórum</a></li>
+                    <li><a href="">Mensagens</a></li>
+                    <li><a href="../../../meu_perfil/meu_perfil.html">Meu Perfil</a></li>
+                    <li><a onclick="localStorage.setItem('logado',false)" href="../../../crie_sua_conta/crie_sua_conta.html">Sair</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    Nome: <input type="text" tabindex="1" id="nomePetCadastro" placeholder="Nome do seu Pet"  class="formularios"> <br>
+                    Sexo: <input type="radio" tabindex="2" name="sexoPetCadastro" value="feminino" id="feminino">
+                    <label for="feminino"> Feminino </label> 
+                    <input type="radio" tabindex="3" name="sexoPetCadastro" value="masculino" id="masculino"> 
+                    <label for="masculino">Masculino </label> <br>
+                    Idade: <input tabindex="4" type="text" id="idadePetCadastro" class="formularios"> anos <br>
+                    Porte: <select tabindex="5" id="portePetCadastro">
+                    <option value="mini">Mini(Toy)(Até 28 cm/Até 6 kg)</option>
+                    <option value="pequeno">Pequeno(Anão)(De 28 até 35 cm/De 6 até 15kg)</option>
+                    <option value="medio">Médio(De 36 até 49 cm/De 15 até 25kg) </option>
+                    <option value="grande">Grande(De 50 até 69 cm/De 25 até 45kg)</option>
+                    <option value="gigante">Gigante(Acima de 70 cm/De 45 até 60kg)</option>
+                    </select>
+                    <input type="button" tabindex="6" value="Cadastrar Pet" class="button" onclick="validarDados();">
+                </div>
+                <div class="col-md-2"></div>
+                <div class="col-md-4">
+                    <h2>Cachorros Cadastrados</h2>
+                    Nome: <span id="nomePetPerfil"></span> <br>
+                    Sexo:<span id="sexoPetPerfil"></span> <br>
+                    Idade:<span id="idadePetPerfil"></span> <br>
+                    Espécie:<span id="especiePetPerfil"></span> <br>
+                    Porte:<span id="portePetPerfil"></span> <br>    
+                </div>
+            </div>
+        </div>
+        <script src="cadastro_cachorro.js"> </script>
+    </body>
+</html>
+

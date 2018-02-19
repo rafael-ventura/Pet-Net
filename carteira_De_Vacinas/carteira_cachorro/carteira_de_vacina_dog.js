@@ -1,0 +1,2 @@
+document.getElementById("do/da").appendChild(document.createTextNode(localStorage.getItem("do/daCarteira")));
+document.getElementById("nomePet").appendChild(document.createTextNode(localStorage.getItem("nomePetCadastro")));
