@@ -1,0 +1,33 @@
+.fotoDog{
+    border:2.5px solid #d6dbbd;
+    border-radius:2px;
+    width: 460px;
+    height: 432px;
+    display: block;
+    margin: auto;
+}
+.fotoForum{
+    width: 954px !important;
+    margin-bottom: 20px;
+    
+     border:2.5px solid #d6dbbd;
+    border-radius:2px;
+}
+.fotoCarteira{
+    width: 465px !important; 
+     border:2.5px solid #d6dbbd;
+    border-radius:2px;    
+}
+.fotoAchados{
+    width: 465px !important;
+    margin-left: 35px;
+     border:2.5px solid #d6dbbd;
+    border-radius:2px;
+}
+.putaquepariu{
+    width: 465px !important;
+    
+}
+.caralho{
+    margin-top: 100px !important;
+}
