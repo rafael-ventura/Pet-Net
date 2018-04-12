@@ -23,7 +23,7 @@
   Its located on "Carteira de Vacinação". <br>
   After registering a dog, you can create his pet vaccination card. </p>
   <h2> Function Three </h2>
-  <p> The Profile Function its on "Meu Perfil" and is there where you can configure your perfil informations. <br>
-  There are two functions: One for change your informations other to erase your account. </p>
+  <p> The Profile Function its on "Meu Perfil" and is there where you can configure your profile informations. <br>
+  There are two functions: One for change your informations other to erase your account(using the LOCALSTORAGE proprieties). </p>
   
   
