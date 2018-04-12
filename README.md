@@ -19,7 +19,7 @@
  <p> The Adopte is on "Adoção" and as it says, you can adopte an animal by sending a form to the site. 
   After this, your form is going to process </p>
   <h2> Function Two </h2>
-  <p> The Register it was meant to be for cats and dogs at first, but i just finish dog register.<br>
+  <p> The Register it was meant to be for cats and dogs at first, but i just finished the dog register.<br>
   Its located on "Carteira de Vacinação". <br>
   After registering a dog, you can create his pet vaccination card. </p>
   <h2> Function Three </h2>
